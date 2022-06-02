@@ -13,7 +13,7 @@ lazy val sangriaCirceVersion  = "1.2.1"
 lazy val sangriaVersion       = "1.4.2"
 lazy val scala12Version       = "2.12.8"
 lazy val shapelessVersion     = "2.3.3"
-lazy val slf4jVersion         = "1.7.25"
+lazy val slf4jVersion         = "1.7.36"
 
 enablePlugins(AutomateHeaderPlugin)
 enablePlugins(JavaAppPackaging)
