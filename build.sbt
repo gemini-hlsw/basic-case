@@ -12,7 +12,7 @@ lazy val mouseVersion         = "0.20"
 lazy val sangriaCirceVersion  = "1.2.1"
 lazy val sangriaVersion       = "1.4.2"
 lazy val scala12Version       = "2.12.8"
-lazy val shapelessVersion     = "2.3.3"
+lazy val shapelessVersion     = "2.3.9"
 lazy val slf4jVersion         = "1.7.25"
 
 enablePlugins(AutomateHeaderPlugin)
