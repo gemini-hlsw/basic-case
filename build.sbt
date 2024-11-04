@@ -107,4 +107,4 @@ scalacOptions := Seq(
   "-Yrangepos", // for longer squiggles
   "-Ywarn-macros:after",
 )
-scalacOptions in (Compile, console) --= Seq("-Xfatal-warnings", "-Ywarn-unused:imports", "-Yno-imports")
+(Compile / console / scalacOptions) --= Seq("-Xfatal-warnings", "-Ywarn-unused:imports", "-Yno-imports")
